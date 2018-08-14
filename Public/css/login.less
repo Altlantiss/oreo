@@ -1,0 +1,82 @@
+html,body,div,p,span,a,img,ul,li{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+body{
+  background-image: url("../img/signBg.png");
+  background-size: 100% 100%;
+}
+.main{
+  .logo{
+    width: 100%;
+    padding-top: 100px;
+    img{
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  .sign-box{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin: 50px auto 0;
+    overflow: hidden;
+    .sign-box-head{
+      width: 100%;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      font-size: 24px;
+      color: #000;
+      background-color: #f1f1f1;
+    }
+    .sign-box-input{
+      margin: 30px;
+      p{
+        overflow: hidden;
+        margin-bottom: 5px;
+        span{
+          color: #ff477d;
+          float: right;
+        }
+      }
+      input{
+        width: 100%;
+        height: 30px;
+        border: 1px solid #cacaca;
+        border-radius: 5px;
+        outline: none;
+        padding-left: 20px;
+        color: #cacaca;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      input::placeholder{
+        color: #cacaca;
+      }
+    }
+    .sign-box-link{
+      margin: 45px 30px 10px 30px;
+      a{
+        width: 100%;
+        height: 35px;
+        line-height: 35px;
+        border-radius: 20px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 18px;
+        background-color: #ff477d;
+        display: block;
+        margin: 0 auto;
+        text-decoration: none;
+      }
+
+    }
+  }
+}
